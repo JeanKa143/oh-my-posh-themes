@@ -31,6 +31,12 @@
           "type": "git"
         },
         {
+          "type": "php",
+          "style": "plain",
+          "foreground": "#4063D8",
+          "template": "<#3bc9db> \u007C </>  {{ .Full }} "
+        },
+        {
           "foreground": "#69db7c",
           "style": "plain",
           "template": "<#3bc9db> \u007C </> \ue718 {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}{{ .Full }} ",
